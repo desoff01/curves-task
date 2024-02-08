@@ -7,7 +7,6 @@
 
 inline constexpr double t {M_PI / 4};
 inline constexpr size_t SIZE_CURVES {20};
-inline constexpr size_t NUM_THREADS {3};
 
 double sumOfRadii(const std::vector<std::shared_ptr<Circle>> &c, const size_t &start, const size_t &end) {
     double sum {0};
